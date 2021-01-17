@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Imbue&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <title>Movie</title>
+</head>
+<body>
+     <!-- Slider Navbar -->
+    <div id="sidebar">
+        <div id="links">
+          <ul id="link_list">
+            <a class="menu_item" id="Vizyondakiler"  href="#"><li >Vizyondakiler</li></a>
+            <a class="menu_item"  id="OneCikanlar" href="#"><li >Öne Çıkanlar</li></a>
+            <a class="menu_item"  id="Aksiyon" href="#"><li>Aksiyon</li></a>
+            <a class="menu_item" id="Drama" href="#"><li >Drama</li></a>
+            <a class="menu_item" id="KirmiziHali" href="#"><li >Kırmızı Halı</li></a>
+            <a class="menu_item" id="Belgesel"  href="#"><li >Belgesel</li></a>
+            <a class="menu_item" id="Mecera" href="#"><li >Macera</li></a>
+            <a class="menu_item" id="Suc" href="#"><li >Suç</li></a>
+            <a class="menu_item" id="Gerilim" href="#"><li >Gerilim</li></a>
+            <a class="menu_item"  id="Komedi" href="#"><li>Komedi</li></a>
+          </ul>
+        </div>
+        <div id="toggle">
+        </div>
+      </div>
+
+      <!-- Main Movie -->
+      <main id="main"></main>
+      
+       <!-- Movie Detail -->
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content" >
+          <span class="close">&times;</span>
+          <div id="getMovieDetail"></div>
+        </div>      
+      </div>
+
+    <script src="./js/main.js"></script>    
+</body>
+</html>
